@@ -10,7 +10,6 @@ setaAvancar.addEventListener("click", () => {
 
 	esconderImagem(imagemAtual);
 	imagemAtual++;
-
 	mostrarImagem(imagemAtual);
 	controlarSetas(imagemAtual);
 });
@@ -22,7 +21,6 @@ setaVoltar.addEventListener("click", () => {
 
 	esconderImagem(imagemAtual);
 	imagemAtual--;
-
 	mostrarImagem(imagemAtual);
 	controlarSetas(imagemAtual);
 });
